@@ -197,13 +197,4 @@ Student.prototype.scopeArrow = () => console.log(this);
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(joe.scopeArrow());
 
-// TODO: Write a COMMENT below to answer the following questions.
-// 1. What is "this" when joe.scope() is invoked?
-// student[name:"joy", age:"schmoe", hometown: 100]// undefined at line 193// 
-// 2. What is "this" when joe.scopeArrow() is invoked?
-// window{}// undefined at line 198// 
-// 3. Explain why "this" is different when an arrow function is used.
-// Arrow functions do not have their own this value. The value of this inside an arrow function is always inherited from the enclosing scope.
-
-
 
